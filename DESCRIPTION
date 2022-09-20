@@ -1,0 +1,11 @@
+Package: wikix
+Type: Package
+Title: Access Wikipedia Statistics using the XTools API
+Version: 0.0.0.9000
+Authors@R: person("Joe", "Roe", email = "joe@joeroe.io",
+  role = c("aut", "cre"), comment = c(ORCID = "0000-0002-1011-1244"))
+Description: A client for the [XTools API](https://xtools.wmflabs.org/), a suite
+    of statistical tools for Wikipedia and other Wikimedia projects.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
