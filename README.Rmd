@@ -1,0 +1,39 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# wikix
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+**wikix** is an R package that accesses the [XTools](https://xtools.wmflabs.org/) API, providing statistics tools for Wikipedia and other Wikimedia projects.
+
+## Installation
+
+You can install the development version of wikix with the [remotes](https://remotes.r-lib.org/) package:
+
+``` r
+# install.packages("remotes")
+remotes::install_github("joeroe/wikix")
+```
+
+## Example
+
+Get the number of edits by user "Jimmy Wales" on the English Wikipedia, per month:
+
+```{r eg-mount-counts}
+library(wikix)
+wpx_user_month_counts("Jimbo Wales")
+```
