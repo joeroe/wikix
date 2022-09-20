@@ -16,6 +16,12 @@ knitr::opts_chunk$set(
 # wikix
 
 <!-- badges: start -->
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/wikix)](https://CRAN.R-project.org/package=wikix)
+[![R build
+status](https://github.com/joeroe/wikix/workflows/R-CMD-check/badge.svg)](https://github.com/joeroe/wikix/actions)
 <!-- badges: end -->
 
 **wikix** is an R package that accesses the [XTools](https://xtools.wmflabs.org/) API, providing statistics tools for Wikipedia and other Wikimedia projects.
