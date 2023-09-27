@@ -29,15 +29,16 @@ remotes::install_github("joeroe/wikix")
 
 ## Example
 
-Get the number of edits by user “Jimmy Wales” on the English Wikipedia,
-per month:
+Get the number of edits by user [Jimbo
+Wales](https://en.wikipedia.org/wiki/User:Jimbo_Wales) on the English
+Wikipedia, per month:
 
 ``` r
 library(wikix)
 wpx_user_month_counts("Jimbo Wales")
-#> Requesting https://xtools.wmflabs.org/api/user/month_counts/enwiki/
-#> Jimbo_Wales ...
-#> # A tibble: 4,144 × 4
+#> Requesting https://xtools.wmflabs.org/api/user/month_counts/enwiki/Jimbo_Wales
+#> ...
+#> # A tibble: 4,336 × 4
 #>    namespace year  month edits
 #>    <chr>     <chr> <chr> <int>
 #>  1 Main      2001  3        20
@@ -50,5 +51,5 @@ wpx_user_month_counts("Jimbo Wales")
 #>  8 Main      2001  10       30
 #>  9 Main      2001  11       13
 #> 10 Main      2001  12       79
-#> # … with 4,134 more rows
+#> # ℹ 4,326 more rows
 ```

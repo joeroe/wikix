@@ -37,7 +37,7 @@ remotes::install_github("joeroe/wikix")
 
 ## Example
 
-Get the number of edits by user "Jimmy Wales" on the English Wikipedia, per month:
+Get the number of edits by user [Jimbo Wales](https://en.wikipedia.org/wiki/User:Jimbo_Wales) on the English Wikipedia, per month:
 
 ```{r eg-mount-counts}
 library(wikix)
